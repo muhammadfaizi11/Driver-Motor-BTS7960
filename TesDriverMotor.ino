@@ -7,9 +7,6 @@ int R_PWMMKa = 4; //PWM Kanan Motor Kanan
 int R_ENMKa = 26; //Enable Kanan Motor Kanan
 int L_PWMMKa = 5; //PWM Kiri Motor Kanan
 int L_ENMKa = 28; //Enable Kanan Motor Kanan
-//int R_IS = 4;
-//int L_PWM = 5;
-//int L_EN = 6;
 
 void setup() {
   // put your setup code here, to run once:
@@ -26,11 +23,6 @@ void setup() {
   digitalWrite(L_ENMKi, HIGH);
   digitalWrite(R_ENMKa, HIGH);
   digitalWrite(L_ENMKa, HIGH);
-//  pinMode(R_IS, INPUT);
-//  pinMode(L_EN, OUTPUT);
-//  pinMode(L_PWM, OUTPUT);
-//  digitalWrite(L_EN, HIGH);
-//  digitalWrite(L_IS, LOW);
 }
 
 void loop() {
